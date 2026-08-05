@@ -32,7 +32,26 @@ function measureScrollbar() {
   document.documentElement.style.setProperty('--cc-sbw', `${Math.max(0, sbw)}px`);
 }
 
+/**
+ * Load the webfonts (Inter body + Fraunces display) from Google Fonts. Injected
+ * from JS so the single Webflow embed carries everything — no separate <link>
+ * to add in Webflow's head. `display=swap` shows the system fallback until the
+ * webfont arrives, so text is never invisible.
+ */
+function injectFonts() {
+  if (document.getElementById('cc-fonts')) return;
+  const pre1 = Object.assign(document.createElement('link'), { rel: 'preconnect', href: 'https://fonts.googleapis.com' });
+  const pre2 = Object.assign(document.createElement('link'), { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossOrigin: '' });
+  const sheet = Object.assign(document.createElement('link'), {
+    id: 'cc-fonts',
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..800&family=Inter:wght@400;500;600;700&display=swap',
+  });
+  document.head.append(pre1, pre2, sheet);
+}
+
 ready(() => {
+  injectFonts();
   injectCSS('tokens', tokens);
   measureScrollbar();
   requestAnimationFrame(measureScrollbar);

@@ -11,10 +11,33 @@
   --cc-card2: rgba(255, 255, 255, 0.92);
   --cc-shadow: 0 18px 60px rgba(2, 6, 23, 0.1);
   --cc-radius: 18px;
-  --cc-font: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Inter, Arial, sans-serif;
+
+  /* Type. Body is Inter (clean, highly readable); headings are Fraunces, a warm
+     variable serif that gives the page some editorial personality without
+     tipping into the generic geometric-sans look. Both fall back to the system
+     stack if the webfont has not loaded yet. Fonts are injected from main.js. */
+  --cc-font: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --cc-font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
 
   /* Measured scrollbar width, set from JS. See .cc-fullbleed below. */
   --cc-sbw: 0px;
+}
+
+/**
+ * Display font on the headings. A plain class list (not :where) so it beats the
+ * inherited body font; none of these headings set font-family themselves, so
+ * there is nothing to fight. Fraunces takes slightly less negative tracking than
+ * the sans did, so tracking is relaxed a touch at the same time.
+ */
+.cch-h1, .cch-step-name,
+.ccx-h1, .ccx-title,
+.ccpr-h1, .ccpr-name, .ccpr-ent-name,
+.ccpt-h1, .ccpt-title,
+.cct-title,
+.cw-title, .cw-card-title,
+.ccl-title, .ccn-title, .ccp-title {
+  font-family: var(--cc-font-display);
+  letter-spacing: -0.015em;
 }
 
 /**
