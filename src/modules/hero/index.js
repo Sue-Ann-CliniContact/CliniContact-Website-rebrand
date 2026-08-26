@@ -4,17 +4,18 @@ import css from './hero.css';
 /**
  * Homepage hero.
  *
- * Two constraints shape the copy:
+ * Three constraints shape the copy:
  *
  * 1. No enrollment promise. CliniContact delivers prescreened, verified
  *    referrals; the site consents and enrolls. Headlining "enrolled" commits to
  *    an outcome outside their control, which is both a commercial risk and
  *    something sponsors will push on. The endpoint is the site handoff.
  * 2. No competitor reference. Naming a rival on your own homepage reads
- *    defensively and gives them oxygen. The differentiator — that most vendors
- *    engage only after materials clear IRB — is stated as a category fact.
- *
- * Also carries no volume metrics; scale is the comparison CliniContact loses.
+ *    defensively and gives them oxygen. The differentiator — that we take no cut
+ *    of ad spend, so our incentives are not to inflate it — is stated as a
+ *    category fact about how most vendors are paid, never as a named comparison.
+ * 3. No volume metrics; scale is the comparison CliniContact loses. Lead with
+ *    aligned incentives, transparency and the whole-study relationship instead.
  */
 
 /**
@@ -26,7 +27,7 @@ const STAGES = [
   {
     stage: 'Startup & digital recruitment',
     name: 'Horizon',
-    desc: 'Recruitment package built, then campaigns we run to your ad spend.',
+    desc: 'The recruitment engine: a package built, then campaigns we run to your ad spend, no cut taken.',
     href: '#horizon',
     accent: '#4ba0f8',
   },
@@ -53,7 +54,7 @@ const STAGES = [
   },
 ];
 
-const PILLS = ['HIPAA & GDPR aligned', '21 CFR Part 11 aware workflows', 'Central & local IRB', 'Decentralised and site-based'];
+const PILLS = ['HIPAA & GDPR aligned', '21 CFR Part 11 aware workflows', 'Central & local IRB', 'Decentralized and site-based'];
 
 function mount(el) {
   injectCSS('hero', css);
@@ -63,15 +64,15 @@ function mount(el) {
     <div class="cc-fullbleed">
       <div class="cch-bg">
         <div class="cch-inner">
-          <span class="cch-kicker"><span class="cch-dot"></span>Recruitment operations for clinical research</span>
+          <span class="cch-kicker"><span class="cch-dot"></span>Clinical trial recruitment, run as a partnership</span>
 
-          <h1 class="cch-h1">From protocol to <span class="accent">prescreened referral</span>.</h1>
+          <h1 class="cch-h1">A recruitment partner whose incentives <span class="accent">match yours</span>.</h1>
 
           <p class="cch-sub">
-            Most recruitment partners get involved only after your materials clear IRB. We engage earlier,
-            right at the protocol: study startup, referral pathways to underrepresented populations, and
-            inclusion/exclusion prescreening. By the time we hand off to your coordinators, they receive a
-            qualified, verified record.
+            Most recruitment vendors earn more when you spend more. We built CliniContact the other way. We
+            take no cut of your ad spend, we pace the budget across your whole study instead of a ninety day
+            blast, and we hand you the conversion data to plan the next one. From protocol to prescreened
+            referral, you see every step, and every dollar.
           </p>
 
           <!--

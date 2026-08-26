@@ -22,8 +22,8 @@ function mount(el) {
     <div class="cw-wrap">
       <div class="cw-head">
         <div class="cw-kicker"><span class="cw-dot"></span>Our Work</div>
-        <div class="cw-title">Case studies &amp; insights that build <span class="grad">enrollment confidence</span>.</div>
-        <p class="cw-sub">Explore real recruitment outcomes and practical insights. Open any PDF instantly, and download with a quick email (optional).</p>
+        <div class="cw-title">The studies teams bring us <span class="grad">first, then expand from</span>.</div>
+        <p class="cw-sub">Real recruitment outcomes across hard protocols and hard-to-reach populations. Most begin as the one study that would not move, and grow into a longer partnership from there. Open any case study instantly; a quick email unlocks the download.</p>
         <div class="cw-divider"></div>
       </div>
 

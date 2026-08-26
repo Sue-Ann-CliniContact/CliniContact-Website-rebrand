@@ -25,7 +25,7 @@ export const PARTNER_PAGE = {
     },
     {
       n: 2,
-      window: 'Weeks 1–2',
+      window: 'Weeks 1 to 2',
       title: 'Recruitment package and IRB submission',
       body: 'Horizon generates the package in about an hour: participant-facing assets, marketing strategy, and the Bridge outreach strategy where community reach applies, all against sponsor playbooks and the relevant IRB ruleset, with every compliance flag cited to its source. The remaining time in this window is your review and the submission itself, not our production.',
       you: 'Review and sign-off; IRB submission through your usual route',
@@ -52,7 +52,7 @@ export const PARTNER_PAGE = {
   principles: [
     {
       title: 'We work with your budget and tell you the truth',
-      body: 'We build a plan around the budget you have, and we give you an honest picture of what it can realistically expect, before you spend it rather than after. Consent and enrollment happen at your site, so we do not promise enrollment numbers; we commit to what we control: verified, prescreened referrals that meet your criteria, and straight reporting on what each channel delivers.',
+      body: 'We build a plan around the budget you have, and we give you an honest picture of what it can realistically expect, before you spend it rather than after. We take no percentage of your ad spend, so we have no reason to inflate it, and when a campaign performs on a smaller budget that is your saving to keep. Consent and enrollment happen at your site, so we do not promise enrollment numbers; we commit to what we control: verified, prescreened referrals that meet your criteria, and straight reporting on what each channel delivers.',
     },
     {
       title: 'Your systems stay your systems',

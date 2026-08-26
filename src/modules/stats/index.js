@@ -2,19 +2,30 @@ import { define, injectCSS } from '../../core/mount.js';
 import css from './stats.css';
 
 /**
- * "Our Results" counters.
+ * "The recruitment problem" counters.
  *
- * The original embed declared its navy palette on :root, which leaked
- * --cc-text: #EAF0FF across the whole page and forced other sections into
- * !important overrides. Everything here is scoped to .cc-stats.
+ * Replaces the old volume counters (132+ conditions, 284M patients reached),
+ * which were uncited and are exactly the volume comparison our positioning tells
+ * us to drop. These are widely reported clinical-trial recruitment benchmarks,
+ * attributed to the industry rather than to our own studies, and they set up why
+ * a budget-careful partner matters.
+ *
+ * NOTE: figures are directional and MUST have their exact numbers and citations
+ * finalized before this goes public.
+ *
+ * Everything here is scoped to .cc-stats (the original embed leaked its navy
+ * palette onto :root and forced !important overrides elsewhere).
  */
 
 export const STATS = [
-  { value: 132, suffix: '+', label: 'Conditions' },
-  { value: 284, suffix: 'M', label: 'Patients Reached' },
-  { value: 112, suffix: '%', label: 'Increase in Randomizations' },
-  { value: 14, suffix: '+', label: 'Hours Saved for Research Teams Weekly' },
+  { value: 80, suffix: '%', label: 'of clinical trials fail to finish on time, most often because of recruitment' },
+  { value: 30, suffix: '%', label: "of a trial's timeline is spent on patient recruitment" },
+  { value: 19, suffix: '%', label: 'of trials are terminated for failing to enroll enough participants' },
+  { value: 11, suffix: '%', label: 'of study sites enroll zero patients' },
 ];
+
+export const STATS_KICKER = 'The recruitment problem';
+export const STATS_SOURCE = 'Widely reported clinical-trial recruitment benchmarks (industry sources to be finalized before publication).';
 
 const easeOutCubic = (t) => 1 - Math.pow(1 - t, 3);
 
@@ -39,7 +50,7 @@ function mount(el) {
 
   el.innerHTML = `
     <div class="ccs-inner">
-      <div class="ccs-header"><div class="ccs-kicker">Our Results</div></div>
+      <div class="ccs-header"><div class="ccs-kicker">${STATS_KICKER}</div></div>
       <div class="ccs-grid" role="list">
         ${STATS.map(
           (s) => `
@@ -49,6 +60,7 @@ function mount(el) {
           </div>`
         ).join('')}
       </div>
+      <p class="ccs-source">${STATS_SOURCE}</p>
     </div>
   `;
 

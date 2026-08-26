@@ -5,6 +5,7 @@ import tokens from './core/tokens.css';
 // Modules self-register with define() on import.
 import './modules/nav/index.js';
 import './modules/hero/index.js';
+import './modules/pillars/index.js';
 import './modules/logos/index.js';
 import './modules/newsletter/index.js';
 import './modules/participant/index.js';

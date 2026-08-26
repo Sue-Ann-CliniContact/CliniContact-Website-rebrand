@@ -9,7 +9,7 @@ function mount(el, data) {
   const title = data.ccTitle || 'Trusted by research teams at leading institutions';
   const sub =
     data.ccSub ||
-    'Academic medical centres, hospital systems, and university research groups rely on CliniContact to fill their studies.';
+    'Academic medical centers, hospital systems, and university research groups rely on CliniContact to fill their studies.';
 
   el.innerHTML = `
     <div class="ccl-inner">

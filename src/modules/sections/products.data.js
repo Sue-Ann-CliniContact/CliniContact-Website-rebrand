@@ -31,10 +31,10 @@ export const PRODUCTS_PAGE = {
       id: 'horizon',
       eyebrow: 'Horizon · Study startup & digital recruitment',
       title: 'Protocol in. A recruitment package, and the campaigns to run it.',
-      desc: 'Give Horizon a protocol link, a PDF, or pasted text, and about an hour later you have the recruitment package and marketing strategy. Then we run it: you set the ad spend, and we build and manage the digital campaigns. Managed recruitment, not a folder of materials handed back to you.',
+      desc: 'Horizon is the recruitment engine. Give it a protocol link, a PDF, or pasted text, and about an hour later you have the recruitment package and marketing strategy. Then we run it: you set the ad spend, and we build and manage the digital campaigns. Managed recruitment, not a folder of materials handed back to you.',
       bullets: [
         'Recruitment package and study-specific marketing strategy in about an hour',
-        'We build and manage the digital ad campaigns; you set the ad spend, no management fee',
+        'We build and manage the digital ad campaigns; you set the ad spend and we take no cut of it',
         'Site-level scoping and protocol amendments applied at intake',
         // Two different measures, deliberately kept apart: ~1 hour is generation
         // time; 9 days is elapsed time through IRB readiness, which includes
@@ -60,7 +60,7 @@ export const PRODUCTS_PAGE = {
       reverse: true,
       eyebrow: 'Bridge · Referral pathways',
       title: 'Open referral pathways into underrepresented populations.',
-      desc: 'Paid media reaches participants already searching. Bridge reaches the ones who are not, through advocacy organizations, community clinics and provider networks matched to your indication and catchment area. It is how a Diversity Action Plan gets executed, not just stated.',
+      desc: 'Paid media reaches participants already searching. Bridge reaches the ones who are not, through advocacy organizations, community clinics and provider networks matched to your indication and catchment area. It is how a Diversity Action Plan gets executed, not just stated. And because these are real relationships, not a bought list, they keep referring after the paid work ends.',
       bullets: [
         'Partner organizations matched by indication and site catchment area',
         'Executes against FDA Diversity Action Plan commitments',

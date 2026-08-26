@@ -10,19 +10,24 @@
 const CDN = 'https://cdn.prod.website-files.com/652e0fad859f7ef17ca4e62c';
 
 /**
- * Headline stats.
+ * Headline stats — proof from our own case studies, not industry claims.
  *
- * These are generic, uncited industry claims inherited from the original embed.
- * Recommend replacing with CliniContact's own numbers, which are stronger and
- * defensible: NPS 91 with zero detractors across 11 clients, 421 participants
- * screened in a single McLean study, 8 therapeutic areas, 12 published studies.
- * Left as-is here because changing public claims is a content decision.
+ * The homepage stat band now carries the industry problem (recruitment delays,
+ * terminations, sites that enroll nobody); this page carries our proof, so the
+ * two never repeat. Every number below is drawn from the case studies rendered
+ * on this same page: 11 studies in the library across 7 therapeutic areas; UT
+ * Austin tripled the monthly flow of pre-qualified participants; McLean ran 421
+ * participants through a single screener.
+ *
+ * NOTE: keep the "11" in step with the length of DOCS below, and confirm the
+ * per-study figures before publication. Do NOT reinstate the old "NPS 91" claim,
+ * testimonials.data.js records that it was an artifact of a curated subset.
  */
 export const WORK_STATS = [
-  { value: 80, suffix: '%', label: 'of studies experience enrollment delays' },
-  { value: 30, suffix: '%', label: 'of study timelines can be lost to recruitment setbacks' },
-  { value: 3, suffix: '×', label: 'faster screening when validation is automated' },
-  { value: 24, suffix: ' hrs', label: 'typical response time for routing enrollment support' },
+  { value: 11, suffix: '', label: 'studies in our public case-study library' },
+  { value: 7, suffix: '', label: 'therapeutic areas, from depression to cardiology' },
+  { value: 3, suffix: '×', label: 'the monthly flow of pre-qualified participants in one study' },
+  { value: 421, suffix: '', label: 'participants screened in a single depression study' },
 ];
 
 export const AREA_COLORS = {

@@ -94,7 +94,7 @@ const irbTimelineSvg = () => {
     <rect x="60" y="290" width="360" height="40" rx="10" fill="rgba(50,87,235,.08)"/>
     <text x="240" y="315" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="800" fill="rgba(50,87,235,.95)">CliniContact: ~9 days</text>
     <rect x="450" y="290" width="360" height="40" rx="10" fill="rgba(15,23,42,.05)"/>
-    <text x="630" y="315" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="700" fill="rgba(15,23,42,.4)">Industry norm: 6–10 weeks</text>
+    <text x="630" y="315" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="700" fill="rgba(15,23,42,.4)">Industry norm: 6 to 10 weeks</text>
     ${line}${nodes}
   </svg>`;
 };

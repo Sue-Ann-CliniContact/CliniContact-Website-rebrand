@@ -31,7 +31,7 @@ function mount(el) {
         <div class="ccpr-head">
           <p class="ccpr-kicker">Pricing</p>
           <h1 class="ccpr-h1">Pick a starting point. Add more when you're ready.</h1>
-          <p class="ccpr-sub">Start with the pressure point that matters most. Every package can expand, and the entry tiers below scale to a flat fee as you add studies and sites. Whatever your budget, we build the plan around it and give you an honest picture of what to expect, before you spend rather than after.</p>
+          <p class="ccpr-sub">Two rules shape every number here. Your ad spend is your own budget, set separately, and we never take a cut of it, so we have no reason to inflate it. And whatever your budget, we build the plan around it and give you an honest picture of what to expect, before you spend rather than after. Start with the pressure point that matters most; every package expands, and the entry tiers below scale to a flat fee as you add studies and sites.</p>
 
           <div class="ccpr-included">
             <span class="ccpr-included-lead">In every package</span>

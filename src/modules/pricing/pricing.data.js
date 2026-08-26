@@ -26,10 +26,10 @@ export const TIERS = [
   {
     id: 'horizon',
     name: 'Horizon',
-    tagline: 'Study startup & digital recruitment',
+    tagline: 'The recruitment engine',
     price: '$800',
     unit: '/month',
-    priceNote: 'One study, one site. We build and manage the campaigns; you set the ad spend, with no management fee on it.',
+    priceNote: 'One study, one site. We build and manage the campaigns; you set the ad spend and we take no cut of it.',
     features: [
       'Recruitment package + study-specific marketing strategy in ~1 hour',
       'Managed digital ad campaigns run to your strategy',
@@ -96,6 +96,7 @@ export const ENTERPRISE = {
     'Horizon site profiles created from the protocol, managed at org level',
     'Bridge per-site dashboards with an organization-wide view',
     'Organization-wide Vision with sponsor and monitor access',
+    'Media spend passes through at cost, never marked up or taken a cut of',
     'System-of-record integration · dedicated strategist · no per-seat or setup fees',
   ],
   cta: 'Build a custom quote',
