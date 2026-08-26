@@ -10,24 +10,25 @@
 const CDN = 'https://cdn.prod.website-files.com/652e0fad859f7ef17ca4e62c';
 
 /**
- * Headline stats — proof from our own case studies, not industry claims.
+ * Headline stats — speed and outcomes, not volume.
  *
- * The homepage stat band now carries the industry problem (recruitment delays,
- * terminations, sites that enroll nobody); this page carries our proof, so the
- * two never repeat. Every number below is drawn from the case studies rendered
- * on this same page: 11 studies in the library across 7 therapeutic areas; UT
- * Austin tripled the monthly flow of pre-qualified participants; McLean ran 421
- * participants through a single screener.
+ * The homepage stat band carries the industry problem (recruitment delays,
+ * terminations, sites that enroll nobody); this page carries our own speed and
+ * outcomes, so the two never repeat. Per the copy rules in the README, these
+ * lead with speed and a single-study outcome rate, NOT counts of studies,
+ * conditions or participants (that is the volume comparison a smaller company
+ * loses). The 3x is UT Austin's tripled monthly flow of pre-qualified
+ * participants.
  *
- * NOTE: keep the "11" in step with the length of DOCS below, and confirm the
- * per-study figures before publication. Do NOT reinstate the old "NPS 91" claim,
- * testimonials.data.js records that it was an artifact of a curated subset.
+ * NOTE: confirm the per-study and process figures before publication. Do NOT
+ * reinstate the old "NPS 91" claim, testimonials.data.js records that it was an
+ * artifact of a curated subset.
  */
 export const WORK_STATS = [
-  { value: 11, suffix: '', label: 'studies in our public case-study library' },
-  { value: 7, suffix: '', label: 'therapeutic areas, from depression to cardiology' },
+  { value: 1, suffix: ' hr', label: 'to turn a protocol into a full recruitment package' },
+  { value: 9, suffix: ' days', label: 'from protocol to IRB-ready materials' },
+  { value: 86, suffix: '%', label: 'first-pass IRB approval, at 1.2 review cycles' },
   { value: 3, suffix: '×', label: 'the monthly flow of pre-qualified participants in one study' },
-  { value: 421, suffix: '', label: 'participants screened in a single depression study' },
 ];
 
 export const AREA_COLORS = {

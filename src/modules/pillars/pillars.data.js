@@ -19,7 +19,7 @@ export const PILLARS_PAGE = {
   items: [
     {
       title: 'Transparent media, no cut of your spend',
-      body: 'You see every dollar of ad spend. We never take a percentage of it, so nothing on our side pushes your cost per lead up. When a campaign wins on a smaller budget, that is your win, and we show it.',
+      body: 'You see every dollar of ad spend. We never take a percentage of it, so nothing on our side pushes your cost per referral up. When a campaign wins on a smaller budget, that is your win, and we show it.',
     },
     {
       title: 'You keep control',
