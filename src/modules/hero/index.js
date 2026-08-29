@@ -46,9 +46,9 @@ const STAGES = [
     accent: '#a78bfa',
   },
   {
-    stage: 'Participant record',
+    stage: 'The recruitment portal',
     name: 'Vision',
-    desc: 'Every message and outcome on one auditable timeline.',
+    desc: 'Automated messaging, one timeline, scheduling and your integrations built in.',
     href: '#vision',
     accent: '#fb923c',
   },

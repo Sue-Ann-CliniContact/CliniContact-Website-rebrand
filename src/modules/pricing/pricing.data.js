@@ -16,10 +16,38 @@
 
 export const PRICING_FORM = 'https://forms.clinicontact.com/pricing';
 
+/**
+ * Two ways to buy, one principle. The transparent model is the flagship; the
+ * all-inclusive is the accommodation for buyers who want one number, kept honest
+ * by a written media floor so it is never the old hide-the-split vendor package.
+ * This reconciles the two-model pricing toward the transparent media-at-cost
+ * story (see the Bridge productization brief, §8.4).
+ */
+export const PRINCIPLE = 'We never make more by spending more of your budget.';
+
+export const MODELS = [
+  {
+    tag: 'Flagship',
+    name: 'Transparent',
+    desc: 'A monthly fee, and your ad spend passed through at cost. You see every dollar, we take no cut, and when a campaign wins on a smaller budget, that saving is yours to keep.',
+    who: 'Site networks, SMOs, CROs, sponsors, and anyone who wants control of the spend.',
+    featured: true,
+  },
+  {
+    tag: 'Prefer one number?',
+    name: 'All-inclusive',
+    desc: 'We package it into a single price, for teams who would rather not manage spend separately. It commits to a media floor in writing, so all-inclusive never means a quietly starved campaign.',
+    who: 'Academic and full-fee studies that want it handled end to end.',
+  },
+];
+
+export const MODELS_CONTRAST =
+  'Most recruitment is sold as one all-inclusive price that quietly bundles your ad spend, so you never see what the media cost or who kept the difference. We show every dollar, and even our all-inclusive option puts the media floor in writing.';
+
 /** Included in every package — this is the core of the "combo it" story. */
 export const ALWAYS_INCLUDED = [
   { name: 'Smart Screener', note: 'I/E prescreening, SMS OTP, eConsent' },
-  { name: 'Vision', note: 'participant record + automatic per-study reporting' },
+  { name: 'Vision', note: 'the recruitment portal: messaging, scheduling, integrations, reporting' },
 ];
 
 export const TIERS = [

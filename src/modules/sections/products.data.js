@@ -24,7 +24,7 @@ const WORK = 'https://www.clinicontact.com/our-work';
 export const PRODUCTS_PAGE = {
   kicker: 'The platform',
   heading: 'Four modules across the recruitment funnel.',
-  sub: 'Each module stands alone, and together they hand off without re-keying. Horizon runs startup and digital recruitment, Bridge opens community referral pathways, Smart Screener applies your criteria, and Vision holds the participant record.',
+  sub: 'Each module stands alone, and together they hand off without re-keying. Horizon runs startup and digital recruitment, Bridge opens community referral pathways, Smart Screener applies your criteria, and Vision runs the referral journey and portal your team works in.',
   showJumps: false,
   sections: [
     {
@@ -60,9 +60,10 @@ export const PRODUCTS_PAGE = {
       reverse: true,
       eyebrow: 'Bridge · Referral pathways',
       title: 'Open referral pathways into underrepresented populations.',
-      desc: 'Paid media reaches participants already searching. Bridge reaches the ones who are not, through advocacy organizations, community clinics and provider networks matched to your indication and catchment area. It is how a Diversity Action Plan gets executed, not just stated. And because these are real relationships, not a bought list, they keep referring after the paid work ends.',
+      desc: 'Paid media reaches participants already searching. Bridge reaches the ones who are not, through advocacy organizations, community clinics and provider networks matched to your indication and catchment area. It is how a Diversity Action Plan gets executed, not just stated. And because these are real relationships, not a bought list, they keep referring after the paid work ends. Every study adds to a relationship ledger you keep, so the partners who referred last time are ready for the next study. Paid media resets to zero each study; Bridge compounds.',
       bullets: [
         'Partner organizations matched by indication and site catchment area',
+        'A relationship ledger that compounds: opted-in partners carry from one study to the next',
         'Executes against FDA Diversity Action Plan commitments',
         'Compliant outreach to advocacy groups, clinics and provider networks',
         'Partner-level referral and engagement reporting',
@@ -86,9 +87,10 @@ export const PRODUCTS_PAGE = {
       id: 'smart-screener',
       eyebrow: 'Smart Screener · Prescreening',
       title: 'Apply your I/E criteria before anyone reaches a coordinator.',
-      desc: 'Branching logic built from your inclusion and exclusion criteria, with SMS passcode verification and IP checks for decentralized studies. Every record arrives with its prescreen outcome and the reason it passed or failed. Those outcomes even train the ad targeting toward qualified referrals, not raw lead volume.',
+      desc: 'Branching logic built from your inclusion and exclusion criteria, with SMS passcode verification and IP checks for decentralized studies. Every record arrives with its prescreen outcome and the reason it passed or failed, and the candidate gets an automatic, status-aware response the instant they finish, no coordinator in the loop. Those outcomes even train the ad targeting toward qualified referrals, not raw lead volume.',
       bullets: [
         'Branching logic built from your inclusion/exclusion criteria',
+        'Automatic, status-aware follow-up the moment a candidate finishes, based on pre-eligibility',
         'SMS OTP verification and IP validation for decentralized studies',
         'eConsent with e-signature where the protocol calls for it',
         'Eligibility outcomes train the targeting toward qualified, in real time',
@@ -102,16 +104,18 @@ export const PRODUCTS_PAGE = {
     {
       id: 'vision',
       reverse: true,
-      eyebrow: 'Vision · Participant record',
-      title: 'One participant record, or routed straight into your system of record.',
-      desc: 'Inbound SMS and email resolve to the right participant across every study, so outreach lives on one timeline instead of scattered inboxes. And where your team works in REDCap, Qualtrics or CRIO, referrals land straight in your system of record, nothing re-keyed.',
+      eyebrow: 'Vision · The recruitment portal',
+      title: 'The whole referral journey, in one portal your team controls.',
+      desc: 'The moment a candidate finishes your pre-screener, Vision runs the rest. It messages them automatically based on their pre-eligibility status, keeps every SMS and email on a single participant timeline, and lets your team schedule directly by text or email from the record. The portal is configured to your study, and referrals integrate directly with REDCap, Qualtrics or your CTMS on a setup built for your team, nothing re-keyed.',
       bullets: [
+        'Automated, status-aware messaging fired straight off the pre-screener on a candidate’s pre-eligibility',
+        'Every SMS and email on one participant timeline: the full communication history in one place',
+        'SMS and email scheduling built in, so coordinators book directly from the record',
+        'A portal configured to your study: your statuses, fields and workflow, not a fixed template',
         // Scoped per engagement, not an off-the-shelf connector — worded so a
         // technical reviewer is not misled into expecting a prebuilt integration.
-        'Handoff into your system of record: REDCap, Qualtrics, CRIO or your own',
-        'Reporting and analytics generated automatically for every study',
-        'Two-way SMS and email resolved to the participant record',
-        'Role-scoped access and full audit trail for coordinators, sponsors and monitors',
+        'Direct REDCap, Qualtrics and CTMS integration, set up on a client-specific basis',
+        'Role-scoped access and a full audit trail for coordinators, sponsors and monitors',
       ],
       screenshot: 'visionConsole',
       ctas: [

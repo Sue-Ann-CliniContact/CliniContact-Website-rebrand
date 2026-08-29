@@ -38,7 +38,7 @@ export const PRODUCT_NAV = [
       { stage: 'Startup & digital recruitment', label: 'Horizon', href: `${SITE}/#horizon`, note: 'The recruitment engine: a package built, then campaigns we run for you.' },
       { stage: 'Referral pathways', label: 'Bridge', href: `${SITE}/#bridge`, note: 'Community and provider networks for underrepresented reach.' },
       { stage: 'Prescreening', label: 'Smart Screener', href: `${SITE}/#smart-screener`, note: 'Your I/E criteria applied before a coordinator is involved.', included: true },
-      { stage: 'Participant record', label: 'Vision', href: `${SITE}/#vision`, note: 'One timeline per participant, automatic per-study reporting.', included: true },
+      { stage: 'The recruitment portal', label: 'Vision', href: `${SITE}/#vision`, note: 'Automated messaging, scheduling, comms history and your integrations.', included: true },
     ],
     footer: { label: 'Compare packages & pricing', href: `${SITE}/pricing` },
   },

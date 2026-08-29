@@ -30,6 +30,56 @@
   font-size: clamp(15px, 1.6vw, 18px); line-height: 1.6; max-width: 64ch;
 }
 
+/* Two ways to work with us — the flagship transparent model and the all-inclusive
+   accommodation, shown as a pair above the tiers. */
+.cc-pricing .ccpr-twoways {
+  margin: clamp(24px, 3vw, 38px) auto 0;
+  max-width: 980px;
+  display: grid; grid-template-columns: 1fr; gap: 16px;
+}
+@media (min-width: 760px) { .cc-pricing .ccpr-twoways { grid-template-columns: 1fr 1fr; } }
+
+.cc-pricing .ccpr-tm {
+  position: relative;
+  padding: 24px 24px 22px;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  box-shadow: 0 1px 3px rgba(2, 6, 23, 0.04);
+  text-align: left;
+}
+.cc-pricing .ccpr-tm.featured {
+  border-color: transparent;
+  background: linear-gradient(180deg, #0f1b33, #0b1220);
+  color: #eaf0ff;
+  box-shadow: 0 22px 54px rgba(11, 18, 32, 0.26);
+}
+.cc-pricing .ccpr-tm-tag {
+  display: inline-block; font-size: 10.5px; font-weight: 800; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--cc-accent2); margin-bottom: 10px;
+}
+.cc-pricing .ccpr-tm.featured .ccpr-tm-tag {
+  color: #06203f; background: var(--cc-accent); padding: 3px 9px; border-radius: 999px;
+}
+.cc-pricing .ccpr-tm-name {
+  margin: 0 0 8px; font-size: 22px; font-weight: 800; letter-spacing: -0.02em; color: var(--cc-ink);
+}
+.cc-pricing .ccpr-tm.featured .ccpr-tm-name { color: #fff; }
+.cc-pricing .ccpr-tm-desc { margin: 0; font-size: 14.5px; line-height: 1.55; color: rgba(15, 23, 42, 0.72); }
+.cc-pricing .ccpr-tm.featured .ccpr-tm-desc { color: rgba(234, 240, 255, 0.78); }
+.cc-pricing .ccpr-tm-who {
+  margin: 14px 0 0; padding-top: 13px; border-top: 1px solid rgba(15, 23, 42, 0.09);
+  font-size: 13px; line-height: 1.5; color: rgba(15, 23, 42, 0.62);
+}
+.cc-pricing .ccpr-tm.featured .ccpr-tm-who { border-top-color: rgba(255, 255, 255, 0.14); color: rgba(234, 240, 255, 0.66); }
+.cc-pricing .ccpr-tm-who b { color: var(--cc-ink); font-weight: 700; }
+.cc-pricing .ccpr-tm.featured .ccpr-tm-who b { color: #fff; }
+
+.cc-pricing .ccpr-contrast {
+  margin: 16px auto 0; max-width: 76ch; text-align: center;
+  font-size: 13.5px; line-height: 1.6; color: rgba(15, 23, 42, 0.58);
+}
+
 /* Included-in-everything strip */
 .cc-pricing .ccpr-included {
   margin: clamp(20px, 2.5vw, 30px) auto 0;
