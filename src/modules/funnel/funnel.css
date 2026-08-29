@@ -27,7 +27,8 @@
 }
 
 /* Horizontal funnel. Scrolls in its own container on narrow screens so the page
-   body never scrolls sideways and the flow always reads left to right. */
+   body never scrolls sideways and the flow always reads left to right. Every
+   stage runs in the product, so every card is solid and accented. */
 .cc-funnel .ccfn-flow {
   display: flex; align-items: stretch; gap: 10px;
   overflow-x: auto; padding: 6px 2px 14px;
@@ -40,33 +41,14 @@
   position: relative;
   flex: 1 0 172px; min-width: 172px;
   display: flex; flex-direction: column;
-  padding: 20px 16px 16px; border-radius: 14px;
-}
-.cc-funnel .ccfn-step.ours {
+  padding: 22px 16px 16px; border-radius: 14px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
-.cc-funnel .ccfn-step.ours::before {
+.cc-funnel .ccfn-step::before {
   content: ''; position: absolute; top: -1px; left: -1px; right: -1px; height: 3px;
   border-radius: 14px 14px 0 0; background: var(--cc-accent); opacity: 0.9;
 }
-.cc-funnel .ccfn-step.pin {
-  background: rgba(75, 160, 248, 0.1);
-  border-color: rgba(75, 160, 248, 0.5);
-  box-shadow: 0 0 0 1px rgba(75, 160, 248, 0.28), 0 16px 40px rgba(75, 160, 248, 0.12);
-}
-.cc-funnel .ccfn-step.yours {
-  background: transparent;
-  border: 1px dashed rgba(234, 240, 255, 0.3);
-}
-
-.cc-funnel .ccfn-tag {
-  font-size: 9.5px; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 800;
-  margin-bottom: 11px;
-}
-.cc-funnel .ccfn-step.ours .ccfn-tag { color: #7cc0ff; }
-.cc-funnel .ccfn-step.pin .ccfn-tag { color: #8fe3dc; }
-.cc-funnel .ccfn-step.yours .ccfn-tag { color: rgba(234, 240, 255, 0.5); }
 
 .cc-funnel .ccfn-stage {
   font-family: var(--cc-font-display); font-size: 18px; font-weight: 600; letter-spacing: -0.01em;
@@ -76,23 +58,30 @@
   display: block; margin-top: 4px; font-size: 12px; font-weight: 700;
   color: rgba(124, 192, 255, 0.9);
 }
-.cc-funnel .ccfn-step.yours .ccfn-product { color: rgba(234, 240, 255, 0.5); }
 .cc-funnel .ccfn-note {
   margin: 10px 0 0; font-size: 12.5px; line-height: 1.45; color: rgba(234, 240, 255, 0.62);
 }
 
-.cc-funnel .ccfn-arw, .cc-funnel .ccfn-handoff {
+.cc-funnel .ccfn-arw {
   align-self: center; flex: 0 0 auto; font-weight: 700; line-height: 1;
-  color: rgba(124, 192, 255, 0.75);
+  font-size: 20px; color: rgba(124, 192, 255, 0.75);
 }
-.cc-funnel .ccfn-arw { font-size: 20px; }
-.cc-funnel .ccfn-arw.muted { color: rgba(234, 240, 255, 0.35); }
-.cc-funnel .ccfn-handoff { font-size: 26px; color: #57d6c6; padding: 0 4px; }
 
-.cc-funnel .ccfn-foot {
-  margin: clamp(22px, 3vw, 34px) auto 0; max-width: 74ch; text-align: center;
-  font-size: 13.5px; line-height: 1.6; color: rgba(234, 240, 255, 0.55);
+/* Flexibility callout — the integration as a welcoming selling point, not a
+   boundary. Teal rail so it reads as an "and also" rather than an "instead". */
+.cc-funnel .ccfn-flex {
+  margin: clamp(20px, 3vw, 32px) auto 0; max-width: 900px;
+  border: 1px solid rgba(87, 214, 198, 0.32);
+  border-left: 4px solid #57d6c6;
+  border-radius: 14px;
+  background: rgba(45, 212, 191, 0.07);
+  padding: 20px 24px;
 }
+.cc-funnel .ccfn-flex-tag {
+  display: block; font-family: var(--cc-font-display); font-size: 16px; font-weight: 600;
+  color: #fff; margin-bottom: 6px;
+}
+.cc-funnel .ccfn-flex-body { margin: 0; font-size: 14px; line-height: 1.6; color: rgba(234, 240, 255, 0.72); }
 
 /* Reveal on scroll, armed only when JS runs. */
 .cc-funnel[data-reveal] .reveal { opacity: 0; transform: translateY(14px); transition: opacity 0.5s ease, transform 0.5s ease; }

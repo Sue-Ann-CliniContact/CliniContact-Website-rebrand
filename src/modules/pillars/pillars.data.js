@@ -30,8 +30,8 @@ export const PILLARS_PAGE = {
       body: 'We pace spend across your enrollment window instead of a ninety day blast that leaves nothing for the rest of the trial. The plan matches the length of the study.',
     },
     {
-      title: 'Honest about what we control',
-      body: 'We commit where our work genuinely ends, at the prescreened, verified referral. Consent and enrollment stay yours, so we never promise a number that is not ours to promise.',
+      title: 'We commit to what we can prove',
+      body: 'We stand behind a prescreened, verified referral your coordinators can enroll from, and straight reporting on every one. The commitment sits on the part we run, so you can hold us to it.',
     },
     {
       title: 'Relationships that outlast the contract',

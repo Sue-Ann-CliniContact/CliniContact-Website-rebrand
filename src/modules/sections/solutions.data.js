@@ -45,7 +45,7 @@ export const SOLUTIONS_PAGE = {
       aliases: ['advanced-smart-screening'],
       eyebrow: 'Academic & grant-funded research',
       title: 'Recruitment that fits a grant budget and an IRB calendar.',
-      desc: 'Grant-funded studies rarely have a marketing function and cannot absorb a six-week materials cycle. Horizon, our recruitment engine, turns a protocol into a complete recruitment package in about an hour, then runs the digital recruitment for you: you set the ad spend, we build and manage the campaigns. We take no cut of that spend, and the conversion data comes back to you as real feasibility you can put in your next grant application. The referral handoff is built into the system your lab already uses, so adopting it does not mean a new data pathway to justify to your IRB.',
+      desc: 'Grant-funded studies rarely have a marketing function and cannot absorb a six-week materials cycle. Horizon, our recruitment engine, turns a protocol into a complete recruitment package in about an hour, then runs the digital recruitment for you: you set the ad spend, we build and manage the campaigns. We take no cut of that spend, and the conversion data comes back to you as real feasibility you can put in your next grant application. Your team works in Vision, a HIPAA-compliant portal, and where your lab is committed to REDCap or Qualtrics, the referral and its data push straight there, nothing re-keyed.',
       bullets: [
         'Recruitment package and marketing strategy in about an hour',
         'Managed digital campaigns to your ad spend, no cut taken and no marketing function needed',

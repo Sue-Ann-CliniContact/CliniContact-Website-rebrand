@@ -55,8 +55,8 @@ export const PARTNER_PAGE = {
       body: 'We build a plan around the budget you have, and we give you an honest picture of what it can realistically expect, before you spend it rather than after. We take no percentage of your ad spend, so we have no reason to inflate it, and when a campaign performs on a smaller budget that is your saving to keep. Consent and enrollment happen at your site, so we do not promise enrollment numbers; we commit to what we control: verified, prescreened referrals that meet your criteria, and straight reporting on what each channel delivers.',
     },
     {
-      title: 'Your systems stay your systems',
-      body: 'No platform migration and no forced tooling change. The referral handoff is built into the system of record your team already uses, so adopting us does not create a new data pathway to justify.',
+      title: 'Work in Vision, keep your system, or both',
+      body: 'Your team works in Vision, the portal we run the whole journey in, and the one most clients stay in. Committed to REDCap, Qualtrics or your CTMS? Vision captures everything first, then pushes it straight there, so there is no migration and nothing re-keyed.',
     },
     {
       title: 'Start with one study',
