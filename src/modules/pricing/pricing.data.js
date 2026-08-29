@@ -29,6 +29,7 @@ export const MODELS = [
   {
     tag: 'Flagship',
     name: 'Transparent',
+    short: 'A monthly fee, and your ad spend passed through at cost. You see every dollar.',
     desc: 'A monthly fee, and your ad spend passed through at cost. You see every dollar, we take no cut, and when a campaign wins on a smaller budget, that saving is yours to keep.',
     who: 'Site networks, SMOs, CROs, sponsors, and anyone who wants control of the spend.',
     featured: true,
@@ -36,6 +37,7 @@ export const MODELS = [
   {
     tag: 'Prefer one number?',
     name: 'All-inclusive',
+    short: 'One number, for teams who would rather not manage spend, with the media floor in writing.',
     desc: 'We package it into a single price, for teams who would rather not manage spend separately. It commits to a media floor in writing, so all-inclusive never means a quietly starved campaign.',
     who: 'Academic and full-fee studies that want it handled end to end.',
   },

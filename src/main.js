@@ -6,6 +6,8 @@ import tokens from './core/tokens.css';
 import './modules/nav/index.js';
 import './modules/hero/index.js';
 import './modules/pillars/index.js';
+import './modules/funnel/index.js';
+import './modules/pricingpeek/index.js';
 import './modules/logos/index.js';
 import './modules/newsletter/index.js';
 import './modules/participant/index.js';
