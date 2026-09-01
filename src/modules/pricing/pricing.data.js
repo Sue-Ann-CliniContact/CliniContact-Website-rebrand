@@ -17,34 +17,34 @@
 export const PRICING_FORM = 'https://forms.clinicontact.com/pricing';
 
 /**
- * Two ways to buy, one principle. The transparent model is the flagship; the
- * all-inclusive is the accommodation for buyers who want one number, kept honest
- * by a written media floor so it is never the old hide-the-split vendor package.
- * This reconciles the two-model pricing toward the transparent media-at-cost
- * story (see the Bridge productization brief, §8.4).
+ * Two engagement models. This is the ONLY place we explicitly differentiate
+ * them; the rest of the site sells the partner picture, not the pricing
+ * mechanics. Partnership is the flagship, ongoing, transparent-ad-spend way;
+ * Rescue is the old-style short, fixed-term, outcome-driven engagement for a
+ * study on a deadline. We pick the right one with the client at their discretion.
  */
-export const PRINCIPLE = 'We never make more by spending more of your budget.';
+export const PRINCIPLE = 'Two ways to work together. We plan the right one around your study.';
 
 export const MODELS = [
   {
-    tag: 'Flagship',
-    name: 'Transparent',
-    short: 'A monthly fee, and your ad spend passed through at cost. You see every dollar.',
-    desc: 'A monthly fee, and your ad spend passed through at cost. You see every dollar, we take no cut, and when a campaign wins on a smaller budget, that saving is yours to keep.',
-    who: 'Site networks, SMOs, CROs, sponsors, and anyone who wants control of the spend.',
+    tag: 'The ongoing way we work',
+    name: 'Partnership',
+    short: 'We plan and run recruitment across the whole study, with your ad spend passed through at cost.',
+    desc: 'We plan and run recruitment across the length of the study. A monthly fee, and your ad spend passed through at cost, so you see every dollar and we never earn more by spending more of your budget. This is how most engagements work.',
+    who: 'Teams who want a recruitment partner for the whole study, with full visibility on spend.',
     featured: true,
   },
   {
-    tag: 'Prefer one number?',
-    name: 'All-inclusive',
-    short: 'One number, for teams who would rather not manage spend, with the media floor in writing.',
-    desc: 'We package it into a single price, for teams who would rather not manage spend separately. It commits to a media floor in writing, so all-inclusive never means a quietly starved campaign.',
-    who: 'Academic and full-fee studies that want it handled end to end.',
+    tag: 'When the study has to move now',
+    name: 'Rescue',
+    short: 'A short, fixed-term engagement to hit a specific enrollment outcome, priced as one figure.',
+    desc: 'A study behind on enrollment, with a deadline and a set budget. We scope a short, fixed-term engagement to hit a specific outcome, priced as a single figure so you can start fast. No retainer and no long commitment.',
+    who: 'Studies behind on enrollment that need a result inside a tight window.',
   },
 ];
 
 export const MODELS_CONTRAST =
-  'Most recruitment is sold as one all-inclusive price that quietly bundles your ad spend, so you never see what the media cost or who kept the difference. We show every dollar, and even our all-inclusive option puts the media floor in writing.';
+  'Not sure which fits? Tell us the study and the deadline, and we will recommend the model that gets you the result, not the one that bills the most.';
 
 /** Included in every package — this is the core of the "combo it" story. */
 export const ALWAYS_INCLUDED = [

@@ -36,7 +36,7 @@ export const PRODUCT_NAV = [
     mega: true,
     children: [
       { stage: 'Startup & digital recruitment', label: 'Horizon', href: `${SITE}/#horizon`, note: 'The recruitment engine: a package built, then campaigns we run for you.' },
-      { stage: 'Referral pathways', label: 'Bridge', href: `${SITE}/#bridge`, note: 'Community and provider networks for underrepresented reach.' },
+      { stage: 'Community pathways', label: 'Bridge', href: `${SITE}/#bridge`, note: 'Community relationships that keep referring, study after study.' },
       { stage: 'Prescreening', label: 'Smart Screener', href: `${SITE}/#smart-screener`, note: 'Your I/E criteria applied before a coordinator is involved.', included: true },
       { stage: 'The recruitment portal', label: 'Vision', href: `${SITE}/#vision`, note: 'Automated messaging, scheduling, comms history and your integrations.', included: true },
     ],

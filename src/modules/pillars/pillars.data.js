@@ -13,21 +13,21 @@
  * enrollment stay the site's.
  */
 export const PILLARS_PAGE = {
-  kicker: 'Partner, not a vendor',
-  heading: 'We only do well when your budget does.',
-  sub: 'Most recruitment vendors earn more when you spend more. We built CliniContact the other way, so our incentives line up with your study from the first click to the last referral.',
+  kicker: 'A partner, not a vendor',
+  heading: 'We plan and run your recruitment like it is our own study.',
+  sub: 'A partner shapes the strategy around your protocol, your sites and your population, and stays for the length of the study, not a campaign you rent for ninety days. Here is what that looks like.',
   items: [
     {
-      title: 'Transparent media, no cut of your spend',
-      body: 'You see every dollar of ad spend. We never take a percentage of it, so nothing on our side pushes your cost per referral up. When a campaign wins on a smaller budget, that is your win, and we show it.',
+      title: 'We plan the strategy, not just run ads',
+      body: 'Before a dollar is spent, we build the recruitment plan around your protocol, your sites, your population and your timeline, and tell you honestly what it can expect.',
     },
     {
-      title: 'You keep control',
-      body: 'We work alongside your team, not in place of it. Strategy and budget stay yours, and we are capacity you scale up or down, never a black box you hand recruitment to.',
+      title: 'Digital and community, together',
+      body: 'Horizon and Bridge run as one plan, so you reach the people already searching and the ones who are not, through real community relationships.',
     },
     {
       title: 'Built for the whole study',
-      body: 'We pace spend across your enrollment window instead of a ninety day blast that leaves nothing for the rest of the trial. The plan matches the length of the study.',
+      body: 'We pace the plan across your enrollment window instead of a front-loaded blast that leaves nothing for the rest of the trial. The plan matches the length of the study.',
     },
     {
       title: 'We commit to what we can prove',
@@ -35,7 +35,7 @@ export const PILLARS_PAGE = {
     },
     {
       title: 'Relationships that outlast the contract',
-      body: 'Through Bridge, the community relationships we build keep sending referrals after our engagement ends. You keep the asset. It does not switch off with the invoice.',
+      body: 'Through Bridge, the community relationships we build keep sending referrals after our engagement ends, and compound with every study you run.',
     },
   ],
   forecast: {

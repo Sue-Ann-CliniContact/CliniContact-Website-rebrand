@@ -22,7 +22,7 @@ function mount(el) {
         <div class="ccppk-copy">
           <p class="ccppk-kicker reveal">Pricing</p>
           <h2 class="ccppk-h1 reveal">${PRINCIPLE}</h2>
-          <p class="ccppk-sub reveal">Two ways to buy, one principle. Pick the model that fits how you work, and see every dollar either way.</p>
+          <p class="ccppk-sub reveal">A fast, fixed-term rescue when the study has to move now, or an ongoing partnership across the whole study. We plan the right one with you.</p>
           <a class="ccppk-btn reveal" href="${PRICING_URL}">See how pricing works <span aria-hidden="true">→</span></a>
         </div>
         <div class="ccppk-models reveal">

@@ -30,8 +30,8 @@ function mount(el) {
       <div class="ccpr-inner">
         <div class="ccpr-head">
           <p class="ccpr-kicker">Pricing</p>
-          <h1 class="ccpr-h1">Two ways to work with us. One principle.</h1>
-          <p class="ccpr-sub"><b>${PRINCIPLE}</b> So however you choose to buy, our incentive is the same as yours: be a careful steward of the budget, and make it last the length of the study.</p>
+          <h1 class="ccpr-h1">Two ways to work with us.</h1>
+          <p class="ccpr-sub">We plan the right one around your study: a fast, fixed-term <b>Rescue</b> when enrollment has to move now, or an ongoing <b>Partnership</b> across the whole study with your ad spend passed through at cost.</p>
         </div>
 
         <div class="ccpr-twoways">

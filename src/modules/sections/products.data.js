@@ -34,7 +34,7 @@ export const PRODUCTS_PAGE = {
       desc: 'Horizon is the recruitment engine. Give it a protocol link, a PDF, or pasted text, and about an hour later you have the recruitment package and marketing strategy. Then we run it: you set the ad spend, and we build and manage the digital campaigns. Managed recruitment, not a folder of materials handed back to you.',
       bullets: [
         'Recruitment package and study-specific marketing strategy in about an hour',
-        'We build and manage the digital ad campaigns; you set the ad spend and we take no cut of it',
+        'We plan and manage the digital ad campaigns to the ad spend you set',
         'Site-level scoping and protocol amendments applied at intake',
         // Two different measures, deliberately kept apart: ~1 hour is generation
         // time; 9 days is elapsed time through IRB readiness, which includes
@@ -58,15 +58,15 @@ export const PRODUCTS_PAGE = {
     {
       id: 'bridge',
       reverse: true,
-      eyebrow: 'Bridge · Referral pathways',
-      title: 'Open referral pathways into underrepresented populations.',
+      eyebrow: 'Bridge · Community recruitment engine',
+      title: 'Real community relationships that keep referring, study after study.',
       desc: 'Paid media reaches participants already searching. Bridge reaches the ones who are not, through advocacy organizations, community clinics and provider networks matched to your indication and catchment area. It is how a Diversity Action Plan gets executed, not just stated. And because these are real relationships, not a bought list, they keep referring after the paid work ends. Every study adds to a relationship ledger you keep, so the partners who referred last time are ready for the next study. Paid media resets to zero each study; Bridge compounds.',
       bullets: [
-        'Partner organizations matched by indication and site catchment area',
-        'A relationship ledger that compounds: opted-in partners carry from one study to the next',
-        'Executes against FDA Diversity Action Plan commitments',
-        'Compliant outreach to advocacy groups, clinics and provider networks',
+        'Advocacy organizations, patient groups, community clinics and provider networks matched to your indication and catchment',
+        'A relationship ledger that compounds: the partners who referred before are ready for your next matching study',
+        'Executes against FDA Diversity Action Plan commitments, shown in the funnel and not just the plan',
         'Partner-level referral and engagement reporting',
+        'Available on its own for community-only recruitment, not just alongside Horizon',
       ],
       screenshot: 'bridgeDashboard',
       scale: {

@@ -11,11 +11,12 @@ import css from './hero.css';
  *    an outcome outside their control, which is both a commercial risk and
  *    something sponsors will push on. The endpoint is the site handoff.
  * 2. No competitor reference. Naming a rival on your own homepage reads
- *    defensively and gives them oxygen. The differentiator — that we take no cut
- *    of ad spend, so our incentives are not to inflate it — is stated as a
- *    category fact about how most vendors are paid, never as a named comparison.
+ *    defensively and gives them oxygen.
  * 3. No volume metrics; scale is the comparison CliniContact loses. Lead with
- *    aligned incentives, transparency and the whole-study relationship instead.
+ *    being a recruitment partner that plans the strategy around the study's
+ *    needs. The two commercial models (a fast fixed-term rescue, or the ongoing
+ *    transparent-ad-spend partnership) are differentiated only at Pricing, never
+ *    pushed as the homepage thesis.
  */
 
 /**
@@ -27,14 +28,14 @@ const STAGES = [
   {
     stage: 'Startup & digital recruitment',
     name: 'Horizon',
-    desc: 'The recruitment engine: a package built, then campaigns we run to your ad spend, no cut taken.',
+    desc: 'The recruitment engine: a package built, then campaigns we plan and run to your ad spend.',
     href: '#horizon',
     accent: '#4ba0f8',
   },
   {
-    stage: 'Referral pathways',
+    stage: 'Community pathways',
     name: 'Bridge',
-    desc: 'Community and provider networks matched to your catchment area.',
+    desc: 'Community relationships that keep referring, study after study.',
     href: '#bridge',
     accent: '#2dd4bf',
   },
@@ -66,13 +67,13 @@ function mount(el) {
         <div class="cch-inner">
           <span class="cch-kicker"><span class="cch-dot"></span>Clinical trial recruitment, run as a partnership</span>
 
-          <h1 class="cch-h1">A recruitment partner whose incentives <span class="accent">match yours</span>.</h1>
+          <h1 class="cch-h1">A recruitment partner who plans the whole strategy around <span class="accent">your study</span>.</h1>
 
           <p class="cch-sub">
-            Most recruitment vendors earn more when you spend more. We built CliniContact the other way. We
-            take no cut of your ad spend, we pace the budget across your whole study instead of a ninety day
-            blast, and we hand you the conversion data to plan the next one. From protocol to prescreened
-            referral, you see every step, and every dollar.
+            We plan the recruitment strategy around your protocol, your sites and your population, then run it
+            end to end: digital outreach and real community relationships, together. Whether your study needs a
+            fast rescue or a partner for its full length, we shape the engagement to what it actually needs, and
+            manage it from protocol to prescreened referral.
           </p>
 
           <!--
